@@ -9,10 +9,11 @@ html{
 }
 body {
     text-align: center;
-    background: linear-gradient(-45deg, #8B5E3C, #A67C52, #6B4423, #C4A484);
-    size: 400% 400%;
+    background: linear-gradient(-45deg, #1B4D3E, #355E3B, #A79277, #F5F5DC);
+    background-size: 400% 400%;
     animation: bgMove 10s ease infinite;
 }
+
 .container{
     padding: 10px 10%;
 }
@@ -27,7 +28,7 @@ body {
     width: 140px;
     height: auto;
     position: relative;
-    color: #F5E1C8;
+    color: white;
     font-size: 20px;
     font-weight: bold;
     display: flex;
@@ -74,13 +75,13 @@ nav ul li a{
     text-decoration: none;
     font-size: 18px;
     position: relative;
-    color: #F5E1C8;
+    color: white;
 }
 nav ul li a::after{
     content: '';
     width: 0;
     height: 3px;
-    background: #F5E1C8;;
+    background: white;
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -89,3 +90,46 @@ nav ul li a::after{
 nav ul li a:hover::after{
     width: 100%;
 }
+
+/*-------------------------CONTACT------------------------*/
+#contact{
+    background: #1B4D3E;
+    color:  white;
+    padding: 50px;
+    text-align: center;
+    border-radius: 10px;
+}
+.container-contact{
+    padding-left: 25%;
+    padding-right: 25%;
+}
+.button{
+    
+    background: #C0A080;
+    color: #1B4D3E;
+    padding: 10px 20px;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s
+}
+.button:hover {
+    background: white;
+}
+
+.contact form{
+    width: 100%;
+}
+form input, form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background-color: white;
+    padding: 15px;
+    margin: 15px 0;
+    color: #1B4D3E;
+    font-size: 12px;
+    border-radius: 6px;
+}
+  
