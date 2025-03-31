@@ -97,7 +97,8 @@ nav ul li a:hover::after{
     color:  white;
     padding: 50px;
     text-align: center;
-    border-radius: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 .container-contact{
     padding-left: 25%;
@@ -133,3 +134,11 @@ form input, form textarea{
     border-radius: 6px;
 }
   
+
+/*-------------------------FOOTER------------------------*/
+
+footer{
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #C0A080;
+}
