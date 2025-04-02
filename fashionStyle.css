@@ -120,7 +120,24 @@ nav ul li a:hover::after{
 .button:hover {
     background: white;
 }
+.contact-info{
+    /* Warna default link */
+a {
+    color: #ff6600; 
+    text-decoration: none; 
+}
 
+/* Warna saat hover */
+a :hover {
+    color: #ff3300; 
+    text-decoration: underline; 
+}
+
+/* Warna saat link sudah dikunjungi */
+a :visited {
+    color: #800080; 
+}
+}
 .contact form{
     width: 100%;
 }
@@ -195,19 +212,4 @@ footer{
     background-color: #C0A080;
 }
 
-/* Warna default link */
-a {
-    color: #ff6600; 
-    text-decoration: none; 
-}
 
-/* Warna saat hover */
-a:hover {
-    color: #ff3300; 
-    text-decoration: underline; 
-}
-
-/* Warna saat link sudah dikunjungi */
-a:visited {
-    color: #800080; 
-}
