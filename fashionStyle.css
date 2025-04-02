@@ -98,9 +98,7 @@ nav ul li a:hover::after{
     padding: 50px;
     text-align: center;
     padding-left: 20;
-    border-top-left-radius: 20px;
     flex-basis: 60%;
-    border-top-right-radius: 20px;
 }
 .container-contact{
     padding-left: 56%;
@@ -137,7 +135,57 @@ form input, form textarea{
     font-size: 12px;
     border-radius: 6px;
 }
-  
+/* About */
+.about-container {
+    background: #4dffca;
+    color:  #444;
+    padding: 50px;
+    text-align: center;
+    padding-left: 20;
+    border-top-left-radius: 20px;
+    flex-basis: 60%;
+    border-top-right-radius: 20px;
+}
+
+.about-container h2 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+}
+
+.about-container p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #444;
+    text-align: justify;
+}
+
+.about-container ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about-container ul li {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.about-container ul li i {
+    color: #27ae60;
+    margin-right: 8px;
+    font-size: 18px;
+}
+
+.launch-info {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #e74c3c;
+    margin-top: 20px;
+}
+
 
 /*-------------------------FOOTER------------------------*/
 
@@ -145,4 +193,21 @@ footer{
     font-size: 12px;
     font-weight: bold;
     background-color: #C0A080;
+}
+
+/* Warna default link */
+a {
+    color: #ff6600; 
+    text-decoration: none; 
+}
+
+/* Warna saat hover */
+a:hover {
+    color: #ff3300; 
+    text-decoration: underline; 
+}
+
+/* Warna saat link sudah dikunjungi */
+a:visited {
+    color: #800080; 
 }
