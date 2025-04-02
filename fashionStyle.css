@@ -94,13 +94,16 @@ nav ul li a:hover::after{
 /*-------------------------CONTACT------------------------*/
 #contact{
     background: #1B4D3E;
-    color:  white;
-    padding: 50px;
+    color: #F5F5DC;
     text-align: center;
-    padding-left: 20;
-    flex-basis: 60%;
+    padding: 50px;
 }
-.container-contact{
+.container-contact-left h1{
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.container-contact-right{
     padding-left: 56%;
 }
 .container-contact-left{
@@ -109,7 +112,7 @@ nav ul li a:hover::after{
 .button{
     
     background: #C0A080;
-    color: #1B4D3E;
+    color: #355E3B;
     padding: 10px 20px;
     border: none;
     font-weight: bold;
@@ -120,6 +123,46 @@ nav ul li a:hover::after{
 .button:hover {
     background: white;
 }
+.contact form{
+    width: 100%;
+}
+form input, form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background-color: white;
+    padding: 15px;
+    margin: 15px 0;
+    color: #355E3B;
+    font-size: 12px;
+    border-radius: 6px;
+}
+
+/*-------------------------ABOUT------------------------*/
+
+#about{
+    color: white;
+    background-color: #1B4D3E;
+    padding: 50px;
+    text-align: center;
+    border-bottom: 1px solid #C0A080;
+
+}
+.about-container h2{
+    font-size: 28px;
+    font-weight: bold;
+}
+.about-container p{
+    font-size: 16px;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.8;
+}
+.about-container ul{
+    color: #C0A080;
+    margin-right: 8px;
+}
+
 .contact-info{
     /* Warna default link */
 a {
@@ -138,24 +181,9 @@ a :visited {
     color: #800080; 
 }
 }
-.contact form{
-    width: 100%;
-}
-form input, form textarea{
-    width: 100%;
-    border: 0;
-    outline: none;
-    background-color: white;
-    padding: 15px;
-    margin: 15px 0;
-    color: #1B4D3E;
-    font-size: 12px;
-    border-radius: 6px;
-}
-/* About */
+
+/* About 
 .about-container {
-    background: #4dffca;
-    color:  #444;
     padding: 50px;
     text-align: center;
     padding-left: 20;
@@ -168,15 +196,12 @@ form input, form textarea{
     text-align: center;
     font-size: 28px;
     font-weight: bold;
-    color: #333;
 }
 
 .about-container p {
     font-size: 16px;
     line-height: 1.8;
-    color: #444;
     text-align: justify;
-}
 
 .about-container ul {
     list-style: none;
@@ -187,10 +212,11 @@ form input, form textarea{
     margin: 10px 0;
     display: flex;
     align-items: center;
+    color: white;
 }
 
 .about-container ul li i {
-    color: #27ae60;
+    color: white;
     margin-right: 8px;
     font-size: 18px;
 }
@@ -199,9 +225,9 @@ form input, form textarea{
     text-align: center;
     font-size: 18px;
     font-weight: bold;
-    color: #e74c3c;
+    color: white;
     margin-top: 20px;
-}
+}*/
 
 
 /*-------------------------FOOTER------------------------*/
@@ -210,6 +236,7 @@ footer{
     font-size: 12px;
     font-weight: bold;
     background-color: #C0A080;
+    color: white;
 }
 
 
