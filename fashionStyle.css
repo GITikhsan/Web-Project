@@ -104,10 +104,14 @@ nav ul li a:hover::after{
     margin-bottom: 20px;
 }
 .container-contact-right{
-    padding-left: 56%;
+    padding-left: 54%;
+    position: relative;
+    top: -110px;
 }
 .container-contact-left{
-    padding-right: 56%;
+    padding-right: 54%;
+    position: relative;
+    top: 50px;
 }
 .button{
     
