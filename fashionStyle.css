@@ -16,6 +16,7 @@ body {
 
 .container{
     padding: 10px 10%;
+    white-space: nowrap;
 }
 #header{
     width: 100%;
