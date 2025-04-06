@@ -18,13 +18,12 @@ body {
     max-width: 800px;
     width: 100%;
     gap: 40px;
-    
   }
   
   .login-left img {
     max-width: 300px;
-    border: 2px solid #29abe2; /* warna biru pada gambar */
-    border-radius: 4px;
+     /* warna biru pada gambar */
+    
   }
   
   .login-right {
