@@ -59,11 +59,17 @@ body {
     gap: 10px;
 }
 
-.form-section .phone-input select,
+.form-section .phone-input select{
+    flex: 0 0 90px;
+    padding: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
 .form-section .phone-input input {
     flex: 1;
     padding: 12px;
     font-size: 16px;
+    box-sizing: border-box;
 }
 
 .form-section button {
