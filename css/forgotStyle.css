@@ -20,6 +20,7 @@
     border-radius: 12px;
     overflow: hidden;
     box-shadow: none;
+    gap: 70px;
   }
   
   .card {
@@ -38,7 +39,7 @@
   
   .image-section img {
     width: 100%;
-    max-width: 300px;
+    max-width: 500px;
   }
   
   .form-section {
