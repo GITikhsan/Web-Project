@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Inter', sans-serif;
     background-color: #fff;
     display: flex;
     justify-content: center;
@@ -68,6 +68,11 @@ body {
     font-weight: bold;
     font-size: 16px;
     cursor: pointer;
+  }
+  .login-btn:hover {
+    color: #fff;
+    background-color: green;
+    transition: 0.25s;
   }
   
   .forgot-password {
