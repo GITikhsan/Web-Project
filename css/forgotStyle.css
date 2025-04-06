@@ -41,6 +41,13 @@
     width: 100%;
     max-width: 500px;
   }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 15px 0;
+  }
   
   .form-section {
     width: 50%;
@@ -51,35 +58,42 @@
   }
   
   .form-section h2 {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-size: 24px;
   }
   
   .form-section p {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     color: #444;
     font-size: 14px;
   }
   
   .form-section input {
     padding: 12px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 6px;
     font-size: 16px;
   }
   
-  .form-section button {
+  .login-btn {
     padding: 12px;
     background-color: #d3d3d3;
     border: none;
     border-radius: 6px;
     font-weight: bold;
     color: #666;
-    cursor: not-allowed;
+    cursor: pointer;
+  }
+
+  .login-btn:hover {
+    color: #fff;
+    background-color: green;
+    transition: 0.25s;
   }
   
   .back-link {
+    text-align: center;
     margin-top: 20px;
     font-size: 14px;
   }
