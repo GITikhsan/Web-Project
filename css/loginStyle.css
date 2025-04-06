@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    border: 4px solid magenta; /* Sesuai border di screenshot */
+    text-align: center;
+  }
+  
+  .login-container {
+    display: flex;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    border-radius: 8px;
+    max-width: 800px;
+    width: 100%;
+    gap: 40px;
+    
+  }
+  
+  .login-left img {
+    max-width: 300px;
+    border: 2px solid #29abe2; /* warna biru pada gambar */
+    border-radius: 4px;
+  }
+  
+  .login-right {
+    flex: 1;
+  }
+  
+  .login-right h2 {
+    margin: 0;
+  }
+  
+  .login-right p {
+    margin: 10px 0;
+    
+  }
+  
+  .signup-link {
+    color: green;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 15px 0;
+  }
+  
+  input[type="email"],
+  input[type="password"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+  }
+  
+  .login-btn {
+    background-color: #ccc;
+    border: none;
+    padding: 12px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .forgot-password {
+    color: green;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    
+  }
+  
+  .social-text {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
+  .social-login {
+    margin-top: 10px;
+  }
+  
+  .google-icon {
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+  }
+  .Login {
+    text-align: left;
+  }
