@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #ffffff;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1000px;
+    width: 100%;
+    padding: 20px;
+}
+
+.illustration {
+    flex: 1;
+    text-align: center;
+}
+
+.illustration img {
+    max-width: 100%;
+    height: auto;
+}
+
+.form-section {
+    flex: 1;
+    padding: 40px;
+}
+
+.form-section h2 {
+    margin-bottom: 5px;
+}
+
+.form-section p {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.form-section p a {
+    color: green;
+    text-decoration: none;
+}
+
+.form-section input {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.form-section .phone-input {
+    display: flex;
+    gap: 10px;
+}
+
+.form-section .phone-input select,
+.form-section .phone-input input {
+    flex: 1;
+    padding: 12px;
+    font-size: 16px;
+}
+
+.form-section button {
+    width: 100%;
+    padding: 12px;
+    background-color: #ccc;
+    border: none;
+    font-size: 16px;
+    cursor: not-allowed;
+    margin-top: 10px;
+}
+
+.form-section small {
+    display: block;
+    margin-top: 10px;
+    color: gray;
+    font-size: 13px;
+}
