@@ -91,17 +91,18 @@ body {
   }
   
   .product-info h2 {
-    font-size: 28px;
+    font-size: 25px; /* ubah ukuran judul sepatu */
     margin-bottom: 14px;
   }
   
   .price-label {
-    font-size: 16px;
+    font-size: 14px;  /* ubah ukuran start from */
     text-transform: uppercase;
+    margin-bottom: 8px;
   }
   
   .price {
-    font-size: 28px;
+    font-size: 24px;  /* ubah ukuran idr */
     font-weight: bold;
     color: #0f0f0f;
     margin-bottom: 24px;
