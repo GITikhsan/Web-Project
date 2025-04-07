@@ -66,7 +66,8 @@ body {
 .form-section .phone-input select{
     border-radius: 6px;
     flex: 0 0 70px;
-    padding: 10px;
+    padding: 12px;
+    margin: 8px 0;
     font-size: 16px;
     box-sizing: border-box;
 }
