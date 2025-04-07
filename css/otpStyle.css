@@ -1,137 +1,79 @@
-/* ====================== */
-/* GLOBAL RESET & FONT   */
-/* ====================== */
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: 'Inter', sans-serif;
-}
-
-body, html {
-  height: 100%;
-  width: 100%;
-}
-
-/* ====================== */
-/* CONTAINER UTAMA        */
-/* ====================== */
-.container {
-  display: flex;
-  height: 100vh;
-}
-
-/* ====================== */
-/* PC: BAGIAN GAMBAR     */
-/* ====================== */
-.image-side {
-  flex: 1;
-  background: url('/images/gambar_awal.png') no-repeat center left;
-  background-size: contain;
-  padding: 10px;
-  position: relative;
-
-  /* Geser kanan dikit */
-  margin-left: 40px;
-}
-
-/* ====================== */
-/* BAGIAN FORM            */
-/* ====================== */
-.form-side {
-  flex: 1;
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  padding: 40px;
-  background-color: #fff;
-  z-index: 2;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+
+  padding: 30px;
+  text-align: center;
+  max-width: 600px;
+  width: 90%;
 }
 
 h2 {
-  text-align: center;
-  margin-bottom: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
 }
 
 .otp-inputs {
   display: flex;
-  gap: 12px;
-  margin-bottom: 25px;
-  flex-wrap: wrap;
   justify-content: center;
+  gap: 10px;
+  margin: 20px 0;
 }
 
 .otp-inputs input {
-  width: 50px;
-  height: 60px;
-  font-size: 24px;
+  width: 40px;
+  height: 40px;
   text-align: center;
+  font-size: 20px;
   border: 1px solid #ccc;
-  border-radius: 8px;
+  border-radius: 5px;
 }
 
-button {
-  padding: 10px 25px;
+.illustration {
+  max-width: 100%;
+  height: auto;
+  margin: 20px 0;
+}
+
+.confirm-btn {
+  padding: 10px 30px;
   border-radius: 10px;
-  border: 1px solid #333;
-  font-size: 16px;
+  background-color: #d9d9d9;
+  color: #333;
+  font-weight: bold;
   cursor: pointer;
-  margin-bottom: 20px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.confirm-btn:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+.resend, .back-link {
+  display: block;
+  margin-top: 15px;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 .resend {
   color: green;
-  margin-bottom: 10px;
 }
 
-a {
+.back-link {
+  color: black;
+}
+
+.back-link span {
   color: green;
-  text-decoration: none;
-}
-
-
-/* ====================== */
-/* RESPONSIVE - HP       */
-/* ====================== */
-@media (max-width: 768px) {
-  .container {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 2rem;
-    text-align: center;
-  }
-
-  .image-side {
-    order: 2;
-    background: url('/images/gambar_awal.png') no-repeat center center;
-    background-size: 200px;
-    width: 100%;
-    height: 200px;
-    opacity: 0.2;
-    margin: 0;
-  }
-
-  .form-side {
-    order: 1;
-    width: 100%;
-    padding: 1rem;
-    justify-content: center;
-  }
-
-  .otp-inputs input {
-    width: 40px;
-    height: 45px;
-    font-size: 1rem;
-  }
-
-  h2 {
-    font-size: 1.2rem;
-    margin-bottom: 20px;
-  }
-
-  button {
-    font-size: 14px;
-  }
 }
