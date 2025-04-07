@@ -3,6 +3,10 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<!-- link sweperjs.com -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  
   <title>Shoe Store</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/css/homeStyle.css">
@@ -17,20 +21,49 @@
     <img src="/images/newrelease.jpeg" alt="New Release 2025">
   </div>
 
-  <div class="section-title">Products</div>
-    <div class="product-row">
-      <div class="product-slider">
-        <ul class="slide-list">
-          <li class="item">
+  <div class="container">
+    <div class="sliding swiper">
+      <div class="item-slider">
+        <ul class="item-list swiper-wrapper">
+          <li class="item swiper-slide">
             <a href="/" class="item-link">
-              <img src="/images/1,860,000.png" alt="item"  class="item-image">
+              <img src="/images/2,200,000.png" alt="item"  class="item-image">
+              <h2 class="nama">Nama</h2>
+              <h3 class="harga">1,860,000</h3>
+            </a>
+          </li>
+          <li class="item swiper-slide">
+            <a href="/" class="item-link">
+              <img src="/images/6,470,000.png" alt="item"  class="item-image">
+              <h2 class="nama">Nama</h2>
+              <h3 class="harga">1,860,000</h3>
+            </a>
+          </li>
+          <li class="item swiper-slide">
+            <a href="/" class="item-link">
+              <img src="/images/6,040,000.png" alt="item"  class="item-image">
+              <h2 class="nama">Nama</h2>
+              <h3 class="harga">1,860,000</h3>
+            </a>
+          </li>
+          <li class="item swiper-slide">
+            <a href="/" class="item-link">
+              <img src="/images/9,190,000.png" alt="item"  class="item-image">
               <h2 class="nama">Nama</h2>
               <h3 class="harga">1,860,000</h3>
             </a>
           </li>
         </ul>
+          <div class="swiper-pagination"></div>
+          <div class="swiper-slide-button swiper-button-prev"></div>
+          <div class="swiper-slide-button swiper-button-next"></div>
       </div>
-  </div>  
+    </div>  
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="/javascript/swiper.js"></script>
+
+  </div>
 
   <div class="shipping">
     <img src="/images/1daydelivery.jpeg" alt="1 Day Delivery">
