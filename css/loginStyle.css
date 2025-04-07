@@ -40,9 +40,9 @@ body {
   }
   
   .login-header{
-  margin-left: 10px 0;
+    text-align: left;
   }
-  
+
   .signup-link {
     color: green;
     text-decoration: none;
