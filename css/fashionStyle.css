@@ -6,6 +6,8 @@
 }
 html{
     scroll-behavior: smooth;
+    scrollbar-width: none;
+    scrollbar-width: 20px;
 }
 body {
     text-align: center;
@@ -259,31 +261,6 @@ form button:hover {
 
 /*-------------------------ABOUT------------------------*/
 
-/*#about{
-    color: #eee;
-    background-color: #111;
-    padding: 50px;
-    text-align: center;
-    border-bottom: 1px solid #355E3B;
-
-}
-.about-container h2{
-    font-size: 28px;
-    font-weight: bold;
-}
-.about-container p{
-    font-size: 16px;
-    max-width: 800px;
-    margin: 0 auto;
-    line-height: 1.8;
-}
-.about-container ul{
-    color: #355E3B;
-    margin-right: 8px;
-}
-
-*/
-
 #about {
     color: #eee;
     background-color: #111;
@@ -361,6 +338,18 @@ form button:hover {
     padding: 60px 10%;
     text-align: center;
 }
+.gallery-container{
+    display: flex;
+    overflow: auto;
+    scroll-behavior: smooth;
+    gap: 20px;
+    padding: 20px;
+    flex-direction: row;
+    overflow-x: auto;
+}
+.gallery-container::-webkit-scrollbar{
+    display: none;
+}
 
 .gallery-container h2 {
     font-size: 28px;
@@ -385,6 +374,8 @@ form button:hover {
     /*box-shadow: 0 5px 15px rgba(0,0,0,0.1);*/
     transition: transform 0.3s ease;
     background-color: #333;
+    flex: 0 0 auto;
+    width: 320px;
 }
 
 .gallery-item:hover {
