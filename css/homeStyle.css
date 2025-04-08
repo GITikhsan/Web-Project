@@ -162,6 +162,63 @@ header input[type="text"] {
   margin: 30px 0 10px;
 }
 
+.similar {
+  margin-bottom: 80px;
+}
+
+.similar h3 {
+  font-size: 26px;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.similar-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 140px; /* jarak antar kolom sepatu */
+  row-gap: 29px; /* jarak antar baris, bisa kamu sesuaikan */
+  padding: 32px;
+}
+
+.similar-item img {
+  width: 110%; /*memperkecil gambar similar products*/
+  border-radius: 20px;
+}
+
+.product-name {
+  font-size: 13px; /* perkecil size judul sepatu similar products */
+  font-weight: 700; /* pertebal tulisannya */
+  margin-top: 13px;
+}
+
+.price-green {
+  color: green;
+  font-weight: bold;
+  font-size: 14px; /* perkecil harga similar products */
+  margin-top: 13px;
+}
+
+@media (max-width: 768px) {
+  .similar-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .product {
+    flex-direction: column;
+  }
+
+  .spec-row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .spec-item {
+    display: block;
+    width: 100%;
+  }
+}
+
+
 .categories {
   display: flex;
   justify-content: center;
