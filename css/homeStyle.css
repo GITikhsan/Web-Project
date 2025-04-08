@@ -38,7 +38,7 @@ header input[type="text"] {
 
 .item-slider {
   position: relative; /* penting agar panah posisi absolut bisa diposisikan */
-  padding: 0 100px 0 0;
+  padding: 0 40px 0 0;
 }
 
 .item-list {
@@ -54,6 +54,7 @@ header input[type="text"] {
   justify-content: space-between;
   min-height: 350px;
   box-sizing: border-box;
+  align-items: flex-start;
 }
 
 .item img {
@@ -68,8 +69,8 @@ header input[type="text"] {
   margin: 10px 0 5px;
   line-height: 1;
   overflow: hidden;
-  width: 310px;
-  align-items: center;
+  width: 240px;
+  text-align: left;
   color: #000;
   padding-bottom: 10px;
 }
@@ -78,6 +79,7 @@ header input[type="text"] {
   color: #1A8E03;
   font-weight: bold;
   margin-top: auto;
+  text-align: left;
 }
 
 .item-slider .item-list .item-link{
