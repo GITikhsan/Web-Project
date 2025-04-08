@@ -39,6 +39,7 @@ header input[type="text"] {
 .item-slider {
   position: relative; /* penting agar panah posisi absolut bisa diposisikan */
   padding-bottom: 40px;
+  overflow: visible;
 }
 
 .item-list {
@@ -80,7 +81,7 @@ header input[type="text"] {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  z-index: 10;
+  z-index: 99999;
   color: #000;
   opacity: 0.7;
   transition: opacity 0.3s ease;

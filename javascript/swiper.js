@@ -1,5 +1,6 @@
 new Swiper('.item-slider', {
   loop: true,
+  slidesPerView: 4,
   spaceBetween: 30,
 
   autoplay: {
@@ -27,11 +28,16 @@ new Swiper('.item-slider', {
       0: {
           slidesPerView: 1
       },
-      720: {
+
+      360: {
           slidesPerView: 2
       },
-      1024: {
+
+      720: {
           slidesPerView: 3
+      },
+      1024: {
+          slidesPerView: 4
       },
   }
 });
