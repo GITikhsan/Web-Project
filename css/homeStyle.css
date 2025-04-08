@@ -7,7 +7,7 @@ body {
 
 header {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   padding: 1rem;
   background: #ffffff;
@@ -52,48 +52,48 @@ header input[type="text"] {
 
 .item-slider {
   position: relative; /* penting agar panah posisi absolut bisa diposisikan */
-  padding: 0 100px 0 0;
+  padding-bottom: 40px;
+  overflow: visible;
 }
 
 .item-list {
   display: flex;
-  gap: 0.5rem;
+  gap: 1rem;
 }
 
 .item {
-  width: 100%;
+  background: #fff;
+  border-radius: 10px;
+  padding: 10px;
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   min-height: 350px;
   box-sizing: border-box;
-  align-items: flex-start;
 }
 
 .item img {
-  width: 100%;
-  height: 180px;
-  object-fit: contain;
+  max-width: 100%;
+  border-radius: 8px;
 }
 
 .nama {
   font-size: 1rem;
+  font-weight: bold;
+  margin: 10px 0 5px;
+  line-height: 1;
   overflow: hidden;
   width: 310px;
+  align-items: center;
   color: #000;
-  padding-bottom: 8px;
-  padding-left: 5rem;
-  align-items: center;      /* Ini biar teks tetap sejajar tengah gambar */
-  text-align: left;
+  padding-bottom: 10px;
 }
 
 .harga {
   color: #1A8E03;
   font-weight: bold;
-  padding-left: 5rem;
-  align-items: center;      /* Ini biar teks tetap sejajar tengah gambar */
-  text-align: left;
+  margin-top: auto;
 }
 
 .item-slider .item-list .item-link{
@@ -101,13 +101,13 @@ header input[type="text"] {
 }
 
 
-/* Swiper navigation arrows styling */
+/* ✅ Swiper navigation arrows styling */
 .swiper-button-prev,
 .swiper-button-next {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  z-index: 10;
+  z-index: 99999;
   color: #000;
   opacity: 0.7;
   transition: opacity 0.3s ease;
@@ -133,13 +133,13 @@ header input[type="text"] {
   bottom: 20px; /* jarak dari bawah .item-slider */
   left: 50%;
   transform: translateX(-50%);
-  z-index: 5;
+  z-index: 10;
 }
 
 /* Other sections */
 .shipping img {
   width: 100%;
-  margin: 0;
+  margin: 30px 0;
 }
 
 .product-row, .explore-row {
