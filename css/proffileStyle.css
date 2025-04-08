@@ -58,7 +58,7 @@ body {
   }
   
   .edit-profile {
-    color: #0ca540;
+    color: green;
     font-size: 14px;
     text-decoration: none;
     margin-bottom: 30px;
@@ -77,7 +77,7 @@ body {
   
   .sidebar-links a {
     display: block;
-    color: #0ca540;
+    color: green;
     font-size: 13px;
     margin: 4px 0;
     text-decoration: none;
