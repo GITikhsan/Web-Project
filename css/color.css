@@ -16,3 +16,24 @@ color5{
 color6{
     color: #A79277;
 }
+
+
+:root {
+   
+    --bg-dark: #111111;
+    --bg-form: #1a1a1a;
+    --bg-button-default: #bbbbbb;
+  
+  
+    --text-light: #dddddd;
+    --text-white: #ffffff;
+    --text-green: #355E3B;
+    --text-orange: #ff8000;
+  
+    --accent-green: #355E3B;
+    --accent-green-soft: #355E3B55; 
+    --border-form: #333333;
+  
+    --icon-green: #6fcf97;
+  }
+  

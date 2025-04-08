@@ -7,11 +7,13 @@
     <link rel="stylesheet" href="/css/fashionStyle.css">
 </head>
 <body>
-    <div id="header">
+    
         <!-- Header -->
-        <div class="container">
+    <div id="header">
+            <!-- Header -->
+           <div class="container">
             <nav>
-                <h1 class="logo">Check Your Shoes Price Now</h1>
+                <h1 class="logo">👟 Fashion Now</h1>
                 <ul id="sidemenu">
                     <li><a href="#header"">Home</a></li>
                     <li><a href="#about"">About</a></li>
@@ -23,10 +25,71 @@
                 </ul>
             </nav>
             <div class="header-text">
-                <p>COMING SOON</p>
+                <h2>Your Fashion, Your Future</h2>
+                <p class="tagline">Explore the world of stylish sneakers 🌍</p>
+                <a href="#shop" class="cta-buttonY">Explore Now</a>
             </div>
         </div>
     </div>
+
+
+    <!-- ========== GALLERY SECTION ========== -->
+    <section id="gallery">
+        <div class="gallery-container">
+            <h2>Our Collection</h2>
+            <p class="gallery-subtitle">Explore our latest shoes styles 👟</p>
+            <div class="gallery-grid">
+                <div class="gallery-item"><img src="../images/WEBPpic1.webp" alt="Fashion 1"></div>
+                <div class="gallery-item"><img src="../images/WEBPpic1.webp" alt="Fashion 2"></div>
+                <div class="gallery-item"><img src="../images/WEBPpic1.webp" alt="Fashion 3"></div>
+                <div class="gallery-item"><img src="../images/WEBPpic1.webp" alt="Fashion 4"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== Product Featured Ads ========== -->
+    <section id="hero">
+        <div class="hero-content">
+            <h1>🔥 New Arrival: Streetwear Sneakers</h1>
+            <p>Kenyamanan dan gaya bersatu dalam satu langkah.</p>
+            <a href="#shop" class="cta-buttonY">Kunjungi Sekarang</a>
+        </div>
+        <div class="hero-image">
+            <img src="../images/WEBPpic3.webp" alt="Sneaker Promo">
+        </div>
+    </section>
+
+    
+    <!-- ========== Highlight ========== -->
+    <section id="featured-products">
+        <h2>Produk Unggulan Kami</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="../images/WEBPpic1.webp" alt="Produk 1">
+                <h3>Sneaker Urban X</h3>
+                <p>Rp 599.000</p>
+                <a href="#" class="buy-button">Lihat Detail</a>
+            </div>
+            <div class="product-card">
+                <img src="../images/WEBPpic1.webp" alt="Produk 2">
+                <h3>Retro Classic</h3>
+                <p>Rp 499.000</p>
+                <a href="#" class="buy-button">Lihat Detail</a>
+            </div>
+            <!-- untuk Tambah produk lainnya -->
+        </div>
+    </section>
+
+    <!-- ========== Promo ========== -->
+    <section id="promo-banner">
+        <h2>🎉 Promo Spesial Minggu Ini: Diskon 20%!</h2>
+        <p>Gunakan kode <strong>STYLE20</strong> saat checkout 🛒</p>
+        <a href="#shop" class="cta-buttonY">Telusuri Sekarang</a>
+    </section>
+
+
+
+
     <!-- About -->
     <div id="about">
         <div class="about-container">
@@ -45,29 +108,26 @@
         
     </div>
     <!-- Contact Us -->
-    <div id="contact">
-        
-        <div class="container-contact-left">
+    <section id="contact">
+        <div class="contact-container">
+          <div class="container-contact-left">
             <h1>Contact us</h1>
-            <p>Jika ada pertanyaan, kritik, atau saran, jangan ragu untuk menghubungi kami melalui form di bawah ini atau melalui kontak media sosial kami.
-            </p>
-            <div class="contact-info">
-                <p><i class="fas fa-envelope"></i> Email: <a href="mailto:info@namadomain.com">info@namadomain.com</a></p>
-                <p><i class="fas fa-phone"></i> WhatsApp: <a href="https://wa.me/6282281899371">+62 822-8189-9371</a></p>
-                <p><i class="fas fa-map-marker-alt"></i> Alamat: Jl. Pogung Dalangan, Pogung Kidul, Sinduadi, Kec. Mlati, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55284</p>
-            </div>
+            <p>Jika ada pertanyaan, kritik, atau saran, jangan ragu untuk menghubungi kami melalui form di bawah ini atau kontak media sosial kami.</p>
+            <p><i class="fas fa-envelope"></i> Email: <span>info@namadomain.com</span></p>
+            <p><i class="fab fa-whatsapp"></i> WhatsApp: <span>+62 822-8189-9371</span></p>
+            <p><i class="fas fa-map-marker-alt"></i> Alamat: Jl. Pogung Dalangan, Pogung Kidul, Sinduadi, Sleman, Yogyakarta 55284</p>
+          </div>
+          <div class="container-contact-right">
+            <form>
+              <input type="text" placeholder="Your Name" required />
+              <input type="email" placeholder="Your Email" required />
+              <textarea placeholder="Your Message" required></textarea>
+              <button type="submit">Submit</button>
+            </form>
+          </div>
         </div>
-<!-- Textbox chat via Email -->
-        <div class="container-contact-right">
-                <form name="submit-to-google-sheet">
-                    <input type="text" name="Name"  placeholder="Your Name" required>
-                    <input type="email" name="Email" placeholder="Your Email" required>
-                    <textarea name="Message" rows="6" placeholder="Your Message" ></textarea>
-                    <button type="submit" class="button">Submit</button>
-                </form>
-                <span id="msg"></span>
-        </div>
-    </div>
+      </section>
+      
 <!-- Foot Note -->
 <footer>
     <p>Copyright 2025 by fashion now 23IF03 </p>
