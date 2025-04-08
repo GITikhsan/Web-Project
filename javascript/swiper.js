@@ -1,7 +1,8 @@
 new Swiper('.item-slider', {
   loop: true,
   slidesPerView: 4,
-  spaceBetween: 30,
+  spaceBetween: 0,
+  centeredSlides: false,
 
   autoplay: {
     delay: 3000, 
