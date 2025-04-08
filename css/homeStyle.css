@@ -5,20 +5,42 @@ body {
   background: #fff;
 }
 
-header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 1rem;
-  background: #ffffff;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+#header{
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
 }
 
-header input[type="text"] {
-  flex: 1;
-  max-width: 300px;
-  padding: 0.5rem;
-  border-radius: 5px;
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+nav ul li{
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px;
+}
+nav ul li a{
+  text-decoration: none;
+  font-size: 18px;
+  position: relative;
+  color: #000;
+}
+nav ul li a::after{
+  content: '';
+  width: 0;
+  height: 3px;
+  background: #42b7ed;
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  transition: 0.5s;
+}
+nav ul li a:hover::after{
+  width: 100%;
 }
 
 .username {
