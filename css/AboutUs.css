@@ -95,7 +95,7 @@ nav ul li a:hover::after{
     width: 140px;
     height: auto;
     position: relative;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: bold;
     display: flex;
     z-index: 3;
