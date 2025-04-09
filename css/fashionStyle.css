@@ -261,7 +261,7 @@ form button:hover {
 
 /*-------------------------ABOUT------------------------*/
 
-#about {
+/*#about {
     color: #eee;
     background-color: #111;
     padding: 60px 30px;
@@ -329,7 +329,7 @@ form button:hover {
         transform: translateY(0);
         opacity: 1;
     }
-}
+}*/
 
 /* ======== GALLERY SECTION ======== */
 #gallery {
