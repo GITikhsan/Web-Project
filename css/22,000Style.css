@@ -190,7 +190,7 @@ position: relative;
 
 .description p {
   margin: 0;
-  font-size: 18px;
+  font-size: 14.5px; /* ubah size isi deskripsi */
   line-height: 1.8;
   text-align: justify; /* biar rata kiri-kanan */
 }
@@ -256,7 +256,7 @@ position: relative;
 }
 
 .similar h3 {
-  font-size: 26px;
+  font-size: 14px; /* memperkecil tulisan similar products */
   margin-bottom: 24px;
   text-align: center;
 }
