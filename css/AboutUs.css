@@ -5,18 +5,24 @@
     font-family: 'Inter', sans-serif;
 }
   
+html{
+    scroll-behavior: smooth;
+    /*scrollbar-width: none;
+    scrollbar-width: 20px;*/
+}
 body {
   background-color: #fff;
   color: #111;
   line-height: 1.6;
 }
 
-nav {
+/*nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 30px 20px 10px;
     border-bottom: 1px solid #eee;
+    
 }
 nav ul {
     list-style: none;
@@ -43,11 +49,59 @@ a {
     text-decoration: none;
     color: inherit;
 }
+*/
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+    color: #111;
+    z-index: 3;
+}
+nav ul li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #355E3B;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+nav ul li a:hover::after{
+    width: 100%;
+}
+.container{
+
+  padding: 10px 10%;
+  white-space: nowrap;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 .logo {
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: #111;
+    width: 140px;
+    height: auto;
+    position: relative;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    z-index: 3;
+    text-align: center;
+    justify-content: center;
+    
 }
 
 #header{
@@ -66,8 +120,7 @@ a {
     font-weight: 700;
     margin-bottom: 16px;
 }
-  
-  #header-text p {
+#header-text p {
     font-size: 1.1rem;
     color: #555;
     max-width: 700px;
