@@ -1,5 +1,41 @@
 body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
     text-align: center;
-    border-left: 50cm;
-    border-right: 50cm;
-}
+  }
+  
+  .license-container {
+    background: white;
+    padding: 40px;
+    width: 80%;
+    max-width: 800px;
+   
+    border-radius: 10px;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    
+    margin-bottom: 20px;
+    line-height: 1.6;
+    text-align: justify;
+  }
+  
+  a {
+    color: #0066cc;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
