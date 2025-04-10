@@ -22,7 +22,46 @@ body {
   background-position: center;
 }
 
-nav{
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  margin-right: 20px;
+  padding: 8px 12px; 
+  border-radius: 6px;
+  transition: background-color 0.2s ease;
+}
+
+.navbar a:last-child {
+  margin-right: 0;
+}
+
+.navbar a:hover {
+  background-color: #e2f5e9; 
+  color: green;
+}
+
+.navbar a.active {
+  background-color: #007BFF; 
+  color: white;
+}
+
+
+/* ini code nav lama*/
+
+/* nav{
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -51,7 +90,7 @@ nav ul li a::after{
 }
 nav ul li a:hover::after{
   width: 100%;
-}
+} */
 
 .username {
   margin-left: 1rem;
