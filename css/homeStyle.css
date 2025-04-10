@@ -30,7 +30,8 @@ body {
   background-color: white;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   position: sticky;
-  top: 0;
+  top: 10px;
+  bottom: 10px;
   z-index: 1000;
 }
 
@@ -38,10 +39,14 @@ body {
   text-decoration: none;
   color: black;
   font-weight: bold;
-  margin-right: 20px;
-  padding: 8px 12px; 
+  margin-right: 10px;
+  padding: 12px 16px;
   border-radius: 6px;
   transition: background-color 0.2s ease;
+  -webkit-transition: background-color 0.2s ease;
+  -moz-transition: background-color 0.2s ease;
+  -ms-transition: background-color 0.2s ease;
+  -o-transition: background-color 0.2s ease;
 }
 
 .navbar a:last-child {
@@ -53,10 +58,10 @@ body {
   color: green;
 }
 
-.navbar a.active {
+/* .navbar a.active {
   background-color: #007BFF; 
   color: white;
-}
+} */
 
 
 /* ini code nav lama*/
