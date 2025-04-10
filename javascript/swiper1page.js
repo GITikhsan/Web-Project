@@ -29,9 +29,9 @@ new Swiper('.product-image-slider', {
         img.style.transform = 'scale(1)';
       }
       if (zoomActive) {
-        swiper.autoplay.stop(); // 🔥 stop auto roll pas zoom
+        swiper.autoplay.stop(); // stop auto roll pas zoom
       } else {
-        swiper.autoplay.start(); // ✅ nyalain lagi kalau udah selesai zoom
+        swiper.autoplay.start(); // nyalain lagi kalau udah selesai zoom
         img.style.transform = 'scale(1)';
       }
     });
