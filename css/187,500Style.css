@@ -273,6 +273,11 @@ position: relative;
   border-radius: 20px;
 }
 
+.similar-item a {
+  color: #000;
+  text-decoration: none;
+}
+
 .product-name {
   font-size: 13px; /* perkecil size judul sepatu similar products */
   font-weight: 700; /* pertebal tulisannya */
