@@ -302,8 +302,6 @@ position: relative;
 
   .spec-item {
     display: block;
-<<<<<<< HEAD
-=======
     font-size: 16px;
     margin-bottom: 10px; /* dalem tabel sku, biar jarak bawahnya yg deketan */
   }
@@ -397,7 +395,6 @@ position: relative;
   @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
   
   .product-image-slider {
->>>>>>> c02652f0ffd5b5ceafbc22fcad61aa9b5aea9e61
     width: 100%;
   }
 }
