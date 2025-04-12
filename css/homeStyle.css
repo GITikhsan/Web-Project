@@ -114,7 +114,7 @@ nav ul li a:hover::after{
 
 .item-slider {
   position: relative; /* penting agar panah posisi absolut bisa diposisikan */
-  padding: 0 40px 0 0;
+  padding: 0 10px 0 0;
 }
 
 .item-list {
