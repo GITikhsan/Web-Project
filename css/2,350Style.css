@@ -286,11 +286,6 @@ position: relative;
   margin-top: 13px;
 }
 
-@media (max-width: 768px) {
-  .similar-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
   .product {
     flex-direction: column;
   }
@@ -372,32 +367,6 @@ position: relative;
     }
   }
   
-  @media (max-width: 768px) {
-    .similar-grid {
-      grid-template-columns: repeat(2, 1fr);
-    }
-  
-    .product {
-      flex-direction: column;
-    }
-  
-    .spec-row {
-      display: flex;
-      flex-direction: column;
-    }
-  
-    .spec-item {
-      display: block;
-      width: 100%;
-    }
-  }
-  
-  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
-  
-  .product-image-slider {
-    width: 100%;
-  }
-}
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
 

@@ -4,10 +4,10 @@ new Swiper('.item-slider', {
   spaceBetween: 0,
   centeredSlides: false,
 
-  autoplay: {
-    delay: 3000, 
-    disableOnInteraction: false, 
-  },
+//   autoplay: {
+//     delay: 3000, 
+//     disableOnInteraction: false, 
+//   },
 
 
   pagination: {
