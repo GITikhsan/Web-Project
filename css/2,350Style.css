@@ -255,6 +255,12 @@ position: relative;
   margin-bottom: 80px;
 }
 
+.similar-item a {
+  color: #000;
+  text-decoration: none;
+}
+
+
 .similar h3 {
   font-size: 14px; /* memperkecil tulisan similar products */
   margin-bottom: 24px;
@@ -297,6 +303,7 @@ position: relative;
 
   .spec-item {
     display: block;
+<<<<<<< HEAD
     font-size: 16px;
     margin-bottom: 10px; /* dalem tabel sku, biar jarak bawahnya yg deketan */
   }
@@ -367,6 +374,11 @@ position: relative;
     }
   }
   
+=======
+    width: 100%;
+  }
+}
+>>>>>>> f42cce7dd9bb1de63cbcad4807dc38f189ba319e
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
 

@@ -255,6 +255,12 @@ position: relative;
   margin-bottom: 80px;
 }
 
+.similar-item a {
+  color: #000;
+  text-decoration: none;
+}
+
+
 .similar h3 {
   font-size: 14px; /* memperkecil tulisan similar products */
   margin-bottom: 24px;
@@ -284,37 +290,6 @@ position: relative;
   font-weight: bold;
   font-size: 14px; /* perkecil harga similar products */
   margin-top: 13px;
-}
-
-.similar-item a {
-  color: #000;
-  text-decoration: none;
-}
-
-@media (max-width: 420px) {
-  .similar-grid {
-    grid-template-columns: repeat(1, 1fr);
-  }
-
-  .product {
-    flex-direction: column;
-  }
-
-  .spec-row {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .spec-item {
-    display: block;
-    width: 100%;
-  }
-
-  .product-image-slider .swiper-button-next,
-  .product-image-slider .swiper-button-prev {
-    width: 20px; 
-    height: 20px;
-  }
 }
 
 @media (max-width: 768px) {
